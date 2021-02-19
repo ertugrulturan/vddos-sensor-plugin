@@ -16,3 +16,11 @@ And run installer script,
 ```
 $ wget https://raw.githubusercontent.com/ertugrulturan/vddos-sensor-plugin/main/install.sh && bash install.sh
 ```
+
+To operate sensor mode,
+
+```
+screen -S "t13r" bash /root/bot.sh
+```
+
+Note: Just run it in the root directory
