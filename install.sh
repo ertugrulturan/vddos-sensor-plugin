@@ -14,4 +14,4 @@ wget https://raw.githubusercontent.com/ertugrulturan/vddos-sensor-plugin/main/co
 wget https://github.com/ertugrulturan/vddos-sensor-plugin/blob/main/under.sh
 clear
 echo "Only bot.sh And under.sh Domain Name Edit And Run Script!"
-echo "Start (Run Command) : $ screen -S "t13r" bash /root/bot.sh"
+echo 'Start (Run Command) : $ screen -S "t13r" bash /root/bot.sh'
