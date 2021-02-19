@@ -4,7 +4,7 @@ if ! [ $(id -u) = 0 ]; then
    exit 1
 fi
 if [ ! -f /vddos/vddos ]; then
-	echo "Firt VDDOS INSTALL"
+	echo "First VDDOS INSTALL"
 fi
 cd /root/
 wget https://raw.githubusercontent.com/ertugrulturan/vddos-sensor-plugin/main/bot.php
