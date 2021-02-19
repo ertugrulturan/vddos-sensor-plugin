@@ -2,7 +2,7 @@
 
 Checks connections as tcp and automatically runs robot verification when there is a specific connection. 
 
-# İnstall
+# Install
 
 first php and wget installed
 ```
