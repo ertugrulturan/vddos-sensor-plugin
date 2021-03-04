@@ -10,7 +10,6 @@ cd /root/
 wget https://raw.githubusercontent.com/ertugrulturan/vddos-sensor-plugin/main/bot.php
 wget https://raw.githubusercontent.com/ertugrulturan/vddos-sensor-plugin/main/bot.sh
 wget https://raw.githubusercontent.com/ertugrulturan/vddos-sensor-plugin/main/bot2.php
-wget https://raw.githubusercontent.com/ertugrulturan/vddos-sensor-plugin/main/cookiess.sh
 wget https://github.com/ertugrulturan/vddos-sensor-plugin/blob/main/under.sh
 clear
 echo "Only bot.sh And under.sh Domain Name Edit And Run Script!"
