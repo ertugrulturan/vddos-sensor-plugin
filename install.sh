@@ -6,6 +6,7 @@ fi
 if [ ! -f /vddos/vddos ]; then
 	echo "First VDDOS INSTALL"
 fi
+yum install net-tools
 cd /root/
 wget https://raw.githubusercontent.com/ertugrulturan/vddos-sensor-plugin/main/bot.php
 wget https://raw.githubusercontent.com/ertugrulturan/vddos-sensor-plugin/main/bot.sh
