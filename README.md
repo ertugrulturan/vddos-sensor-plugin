@@ -4,7 +4,7 @@ Checks connections as tcp and automatically runs robot verification when there i
 
 # Install
 
-Need to install php and wget first
+Need to install php(7.0/7.4) and wget first
 
 ```
 $ yum install php
