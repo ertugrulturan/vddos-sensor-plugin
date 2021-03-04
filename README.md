@@ -25,3 +25,7 @@ $ screen -S "t13r" bash /root/bot.sh
 ```
 
 Note: Just run it in the root directory
+
+
+
+# Donate Bitcoin: 1AVSyDzEmSivbjyGhQDSyoHsc2obkepxEp
