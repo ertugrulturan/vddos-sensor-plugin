@@ -16,7 +16,7 @@ mv layerweb-vddosensor /usr/bin/
 mv lwguardian /usr/bin/
 chmod +x /usr/bin/lwguardian
 chmod +x /usr/bin/layerweb-vddosensor
-vddosservicedir=$(echo "W1VuaXRdCkRlc2NyaXB0aW9uPWxheWVyd2ViCkFmdGVyPW5ldHdvcmsudGFyZ2V0CgpbU2VydmljZV0KVHlwZT1zaW1wbGUKRXhlY1N0YXJ0aW9uPS91c3IvYmluL2xheWVyd2ViLXZkZG9zZW5zb3IKRXhlY1N0b3A9a2lsbGFsbCBsYXllcndlYi12ZGRvc2Vuc29yClJlc3RhcnQ9b24tZmFpbHVyZQpSZXN0YXJ0U2VjPTVzCgpbSW5zdGFsbF0KV2FudGVkQnk9bXVsdGktdXNlci50YXJnZXQ=" | base64 --decode)
+vddosservicedir=$(echo "W1VuaXRdCkRlc2NyaXB0aW9uPWxheWVyd2ViCkFmdGVyPW5ldHdvcmsudGFyZ2V0CgpbU2VydmljZV0KVHlwZT1zaW1wbGUKRXhlY1N0YXJ0PS91c3IvYmluL2xheWVyd2ViLXZkZG9zZW5zb3IKRXhlY1N0b3A9a2lsbGFsbCBsYXllcndlYi12ZGRvc2Vuc29yClJlc3RhcnQ9b24tZmFpbHVyZQpSZXN0YXJ0U2VjPTVzCgpbSW5zdGFsbF0KV2FudGVkQnk9bXVsdGktdXNlci50YXJnZXQ=" | base64 --decode)
 echo "$vddosservicedir" > /etc/systemd/system/layerwebvddos.service
 systemctl daemon-reload
 systemctl enable layerwebvddos.service
