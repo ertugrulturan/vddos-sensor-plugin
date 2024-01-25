@@ -58,7 +58,7 @@ func countdown(duration time.Duration) {
 
 	for time.Now().Before(endTime) {
 		clearScreen()
-		fmt.Printf("Geri sayım: %v\n", endTime.Sub(time.Now()))
+		fmt.Printf("Countdown: %v\n", endTime.Sub(time.Now()))
 		time.Sleep(time.Second)
 	}
 }
