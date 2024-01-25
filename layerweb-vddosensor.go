@@ -28,7 +28,7 @@ func checkForAttack(activeConnections int) {
 			panic(err)
 		}
 
-		newContent := regexp.MustCompile(`high\+`).ReplaceAllString(string(content), "captcha+")
+		newContent := regexp.MustCompile(`high\+`).ReplaceAllString(string(content), "5s+")
 
 		err = ioutil.WriteFile(confFile, []byte(newContent), 0644)
 		if err != nil {
@@ -39,7 +39,7 @@ func checkForAttack(activeConnections int) {
 
 		countdown(1 * time.Minute)
 
-		newContent = regexp.MustCompile(`captcha\+`).ReplaceAllString(string(content), "high+")
+		newContent = regexp.MustCompile(`5s\+`).ReplaceAllString(string(content), "high+")
 
 		err = ioutil.WriteFile(confFile, []byte(newContent), 0644)
 		if err != nil {
