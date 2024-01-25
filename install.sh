@@ -22,4 +22,3 @@ systemctl daemon-reload
 systemctl enable layerwebvddos.service
 systemctl start layerwebvddos.service
 echo "VDDOS Sensor mode active! - LAYERWEB Systems"
-
