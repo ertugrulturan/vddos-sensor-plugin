@@ -20,7 +20,7 @@ func clearScreen() {
 
 func checkForAttack(activeConnections int) {
 	if activeConnections > 5 {
-		fmt.Println("\nSALDIRI VAR\n")
+		fmt.Println("\nTHERE IS AN ATTACK\n")
 
 		confFile := "/vddos/conf.d/website.conf"
 		content, err := ioutil.ReadFile(confFile)
