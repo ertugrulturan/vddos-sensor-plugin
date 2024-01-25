@@ -6,7 +6,7 @@ Checks connections as tcp and automatically runs robot verification when there i
 default         http://0.0.0.0:80    http://127.0.0.1:8080    no    high+      no           no
 default         https://0.0.0.0:443  https://127.0.0.1:8443   no    high+      /vddos/ssl/your-domain.com.pri /vddos/ssl/your-domain.com.crt
 ```
-(For more premium features, just donate to Voddy via Telegram and it will share the premium document with its help: t.me/@voduy13 )
+For more premium features, just donate to Voddy via Telegram and it will share the premium document with its help: t.me/@voduy13
 
 # Install (one command)
 Deb System,
